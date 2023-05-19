@@ -1,0 +1,35 @@
+#container {
+    background: #292323;
+    height: 45vh;
+    width: 100%;
+}
+
+#T1 {
+    text-align: center;
+}
+
+#textcontainer {
+    padding-top: 20vh
+}
+
+
+.bigText {
+    width: 1500px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+
+}
+
+h1 {
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
