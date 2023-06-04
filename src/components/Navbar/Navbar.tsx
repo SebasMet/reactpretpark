@@ -9,7 +9,7 @@ export default function Navbar() {
             <div id="navmenu">
                 <nav>
                     <a href="./">Home</a>
-                    <a href="./test">Over ons</a>
+                    <a href="./about">Over ons</a>
                     <a href="./test">Tickets</a>
 
                 </nav>

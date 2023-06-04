@@ -2,20 +2,20 @@ import "./WelcomeText.css";
 
 type WelcomeTextProps = {
     title: string;
-    text: string
+    text: string;
 }
 
 
-export default function WelcomeText({ title, text }: WelcomeTextProps) {
+export default function WelcomeText(props: WelcomeTextProps) {
     return (
         <div id="container">
             <div id="textcontainer">
                 <div className="bigText">
                     <h1 id="T1">
-                        <b>{title}</b>
+                        <b>{props.title}</b>
                     </h1>
                     <p>
-                        {text}
+                        {props.text}
                     </p>
                 </div>
             </div>

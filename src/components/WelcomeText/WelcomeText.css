@@ -1,7 +1,13 @@
 #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #292323;
-    height: 45vh;
+    height: 55vh;
     width: 100%;
+    /* opacity: 40%; */
+    padding-top: 10vh;
 }
 
 #T1 {
@@ -9,12 +15,13 @@
 }
 
 #textcontainer {
-    padding-top: 20vh
+    
+    margin: auto;
 }
 
 
 .bigText {
-    width: 1500px;
+    width: 90vw;
     align-items: center;
     margin: auto;
     text-align: center;
@@ -24,6 +31,8 @@ p {
     color: white;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
+    margin: 0 !important; 
+    
 
 }
 

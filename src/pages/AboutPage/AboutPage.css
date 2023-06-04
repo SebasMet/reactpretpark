@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+#about-title-container {
+    display: flex;
+    background-color: black;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background: #292323;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+}
