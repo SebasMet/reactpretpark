@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import Button from "@mui/material/Button";
 import "./TicketPage.css";
 
-const TicketPage: React.FC = () => {
+export default function TicketPage() {
     const [total, setTotal] = useState<number>(() => {
-        const savedTotal = localStorage.getItem('total');
+        const savedTotal = sessionStorage.getItem('total');
         return savedTotal ? Number(savedTotal) : 0;
     });
 
@@ -13,7 +13,7 @@ const TicketPage: React.FC = () => {
     };
 
     useEffect(() => {
-        localStorage.setItem('total', total.toString());
+        sessionStorage.setItem('total', total.toString());
     }, [total]);
 
     return (
@@ -62,5 +62,3 @@ const TicketPage: React.FC = () => {
         </>
     )
 }
-
-export default TicketPage;
