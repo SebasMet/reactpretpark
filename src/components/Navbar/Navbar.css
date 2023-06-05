@@ -10,7 +10,7 @@
     background-color: #1a1717;
     
 
-    height: 7rem;
+    height: 15vh;
 
 }
 
@@ -30,10 +30,11 @@
 }
 
 #webtitle {
+    font-size: 4vh;
     font-family: HalloweenFont;
     color: white;
     font-weight: lighter;
-    padding-top: 1rem;
+    padding-top: 1vh;
 }
 
 a {

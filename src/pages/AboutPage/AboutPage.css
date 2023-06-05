@@ -9,7 +9,7 @@
     background: #292323;
 }
 
-h1 {
+#about-title {
     font-family: 'Lato', sans-serif;
-    margin-top: 0;
+    margin-top: 5vh !important;
 }
